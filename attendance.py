@@ -84,7 +84,7 @@ class Attendance:
         student_roll_entry.grid(row=0,column=3,padx=5,pady=5,sticky=W)
 
         #Studnet Name
-        student_name_label = Label(left_frame,text="Std-Name:",font=("verdana",12,"bold"),fg="navyblue",bg="white")
+        student_name_label = Label(left_frame,text="Std-NAME:",font=("verdana",12,"bold"),fg="navyblue",bg="white")
         student_name_label.grid(row=1,column=0,padx=5,pady=5,sticky=W)
 
         student_name_entry = ttk.Entry(left_frame,textvariable=self.var_name,width=15,font=("verdana",12,"bold"))
